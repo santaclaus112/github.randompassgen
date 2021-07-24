@@ -1,0 +1,144 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  background-color: #9dc5bb;
+}
+ */
+
+body{
+    background: url(https://cdn.pixabay.com/photo/2019/03/03/14/38/hacker-4031973_960_720.jpg);
+     background-position:center;
+    background-size: cover;
+}
+
+img{font-size: 2em;
+     padding-bottom: 10px;
+
+}
+
+.copyright{ 
+        color:  white;
+margin-top: 9%;
+    font-size: 65%;
+    
+}
+
+{
+    text-align: center;
+    margin-top: 5px;
+    
+    
+}
+
+.container {
+  padding: 1rem 1.5rem;
+  /* border: 1px solid black; */
+  width: 350px;
+/*   background-color: #bcf4f5; */
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: white
+}
+
+h2 {
+  text-align: center;
+  padding: 15px 0;
+    color: white;
+}
+
+/* input[type='checkbox'] {
+  margin-right: 0;
+} */
+/* input[type='text'] {
+  height: 100%;
+  width: 100%;
+} */
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+    font-size: 0.8em;
+  
+}
+.result__container {
+  height: 40px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 0 5px;
+    margin-left: 3px;
+    border-radius: 6px;
+    color: white;
+    background-color: #5CB85C;
+    opacity: 0.9;
+        
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+#passwordGeneratorForm{
+    margin-top: 1%
+    
+}
+
+#copy {
+    margin-top: 4px;
+  height: 30px;
+  width: 51px;
+  background-color: #5cb85c;
+  color: #ffffff;
+  border: 1px, solid, grey;
+  cursor: pointer;
+  outline: none;
+    padding-left:;
+    margin-left: 83%;
+    border-radius: 6px;    
+}
+
+.result__container #copy:hover {
+  background-color: #1c2541;
+  color: #ffffff;
+}
+
+#generate {
+  height: 40px;
+  width: 98%;
+  border-radius: 6px;
+  border: none;
+  background-color:;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+    margin-left: 3px;
+      vertical-align: inherit;
+    border: 1px solid grey;
+    padding: 6.7px 12px;
+    padding-top: 7px
+}
+#generate:hover {
+  background-color: ;
+  color: #ffffff;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="Strong Password Generator to create secure passwords that are impossible to crack on your device without sending them across the Internet.">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<link rel="stylesheet"
+    href="animate.css">
+    
+    <link rel="icon" href="images/Key4.png" type="image/png" sizes="16x16">
+	
+	<link rel="stylesheet" href="style.css">
+
+	<title>Password Generator</title>
+
+</head>
+
+<body>
+
+    <form id="passwordGeneratorForm">
+        <div class="container animated flipInY">
+           
+            <h2 class="header animated fadeInDownBig"><img src="images/keys_security_private_lock_1739.png" alt="Padlock" class="locks animated infinite pulse"> <br> 
+            <strong>Random Password <br> Generator </strong></h2>
+            <div class="result__container">
+                <span id="result"></span>
+               
+            </div>
+             <button id="copy">Copy</button>
+             
+            <div class="options">
+                <div class="option">
+                    <label>Length</label>
+                    <input type="number" id="length" min="4" max="20" value="10">
+                </div>
+                <div class="option">
+                    <label>Include Uppercase</label>
+                    <input type="checkbox" id="uppercase" checked>
+                </div>
+                <div class="option">
+                    <label>Include Numbers</label>
+                    <input type="checkbox" id="numbers" checked>
+                </div>
+                <div class="option">
+                    <label>Include Symbols</label>
+                    <input type="checkbox" id="symbols" checked>
+                </div>
+            </div>
+            <button class="btn btn-success" id="generate" type="submit">Generate Password</button>
+            
+        </div>
+       
+    </form>
+<p class="copyright">Copyright &copy; 2021. All Rights Reserved. <br>We do not store generated passwords.</p>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script src="script.js">
+	</script>
+
+</body>
+
+</html>
